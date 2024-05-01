@@ -15,3 +15,8 @@ This `TinyTonic C2` is based on Gin and is being used to test all of the followi
 
 
 
+Lol this shit is not safe. 
+
+I am exposing this to 2 devices with no internet connection. Just 2 laptops connected by an ethernet cable. 
+
+This is just to make sure i can send data via an http client. 
