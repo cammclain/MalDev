@@ -42,8 +42,15 @@ func NewRouter() *gin.Engine {
 				"message": "Uniform API",
 			})
 		}
+
+		credentialUploadHandler := func(c *gin.Context) {
+			file, _ := c.FormFile("file")
+			log.Println(file.Filename)
+			c.String(http.StatusOK, "File uploaded")
+		}
 		api.GET("", apiHandler)
 		api.GET("/", apiHandler)
+		api.POST("/xxxx", credentialUploadHandler)
 	}
 
 	return router
