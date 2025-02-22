@@ -55,3 +55,43 @@ pub export fn main() callconv(.C) void {
     // Insert your payload or initialization code here.
     return;
 }
+```
+
+### Build Command
+
+Compile the binary with flags that optimize for size and explicitly avoid linking the CRT:
+
+```bash
+zig build-exe --target x86_64-windows-gnu -O ReleaseSmall --strip crt_free.zig
+```
+
+- **`-O ReleaseSmall`:**  
+  Optimizes for a smaller binary size by stripping out unnecessary code.
+
+- **`--strip`:**  
+  Removes debugging symbols and other non-essential data.
+
+*Note:* The absence of any CRT library linkage is achieved by ensuring that only the minimal code you provide is compiled into the binary.
+
+---
+
+## Key Takeaways
+
+- **CRT Dependencies:**  
+  CRT libraries, while useful for general application development, can introduce identifiable patterns that reduce the stealth of your malware.
+
+- **Freestanding Binaries:**  
+  Writing a freestanding binary gives you complete control over the executable, minimizing unwanted dependencies and signatures.
+
+- **Custom Entry Points:**  
+  Defining your own entry point bypasses the default CRT initialization, streamlining the binary and enhancing obfuscation.
+
+- **Practical Impact:**  
+  By removing CRT dependencies, you produce a lean, stealthy executable that's harder for antivirus and heuristic engines to classify as malicious.
+
+---
+
+## Next Steps
+
+With the CRT Library Removal module complete, you now have a solid foundation in creating lean binaries. Our next module will delve into **Custom Payload Encryption** techniques, where we build upon these concepts to further protect and obfuscate your malware payload.
+
