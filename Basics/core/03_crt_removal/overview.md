@@ -1,0 +1,2 @@
+# CRT Library Removal:
+The `C runtime (CRT) libraries` can introduce recognizable code patterns and additional dependencies that may be used by antivirus products as indicators of malicious intent. Removing these libraries not only reduces the binary’s size but also eliminates common signatures associated with standard CRT initialization routines.
