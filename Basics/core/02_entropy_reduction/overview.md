@@ -1,0 +1,2 @@
+# File Entropy Reduction:
+`High file entropy` is often a **red flag** for `heuristic scanners` because it can indicate the presence of packed or heavily obfuscated code. By reducing file entropy, you make your binary look more like a typical, benign application. This involves stripping out unneeded data, debug symbols, and ensuring that the binary's internal structure doesn’t contain overly randomized sections.
