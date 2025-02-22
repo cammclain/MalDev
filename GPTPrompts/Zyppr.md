@@ -1,9 +1,16 @@
+Pause, this is great so far, but I think you could do better if I provide you with more background context as to what my overall goals are with this project are, how I intend to achieve them, and what I am looking to learn along the way
+
+
+
 In case you didn’t already realize what is going on here, we are essentially aiming to create my own private maldev academy experience!
 
-The reason I am wanting to approach learning malware development through this customized and personalized method where I am having LLMs generate the lessons is simply because I cannot afford to pay for lifetime access to maldev academy. 
+The reason I am wanting to approach learning malware development through this customized and personalized method where I am having LLMs generate the lessons is simply because I cannot afford to pay for lifetime access to maldev academy. Wish I could, but even if I could, I still have some issues with the way they do things (RESPECTFULLY LOL)
 
 
-On top of this, maldev academy is highly opinionated. For example:
+
+For one, maldev academy is highly opinionated. 
+
+For example:
 
 - Almost all the modules are in C & C++ (languages I don’t know and don’t really intend to learn if I can avoid it, since I use other languages already)
 - It uses the Havoc Framework as it’s C2 framework 
@@ -42,4 +49,20 @@ I also like the idea of including Nim based shared object files to extend the Zi
 
 These shared objects can include optional functionally that can be included or excluded from individual builds, making the output unique across different engagements 
 
-One of the most important features I want to include within this implant is the ability to pivot within the environment 
+One of the most important features I want to include within this implant is the ability to pivot within the environment. Some of the later modules will be dedicated to this topic, however I want to make sure that the implant is capable of running commands on the local machine as well as pivoting to other machines on the network
+
+
+---
+
+Hopefully this can help you understand my goals a bit better and help you generate more relevant content for me
+I am looking to learn as much as I can about malware development, and I want to do so in a way that is engaging and fun for me.
+I am also looking to learn more about the Zig programming language, as I think it is a great language and I want to use it for my implants
+I am also looking to learn more about the Rust programming language, as I think it is a great language and I want to use it for my dropper
+I am also looking to learn more about the Nim programming language, as I think it is a great language and I want to use it for my shared objects
+I am also looking to learn more about the Litestar framework, as I think it is a great framework and I want to use it for my C2 server
+I am also looking to learn more about the Advanced Alchemy library, as I think it is a great library for SQL management and I want to use it for my C2 server
+
+
+
+
+
