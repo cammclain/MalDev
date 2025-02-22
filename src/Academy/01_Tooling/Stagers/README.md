@@ -31,8 +31,6 @@ Stagers are lightweight payloads designed to establish an initial foothold on a 
 
 ## Additional Resources
 
-- [Intrusion Detection Systems (IDS)](https://www.sans.org/)
-- [Endpoint Security Best Practices](https://www.us-cert.gov/)
-- [Understanding Multi-Stage Payloads](https://www.malware-traffic-analysis.net/)
+- [Offensive VBA](https://github.com/S3cur3Th1sSh1t/OffensiveVBA)
 
-This reference serves as an overview and starting point for further exploration of stagers within the context of targeted security assessments and penetration testing scenarios.
+- [Empire](
