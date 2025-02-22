@@ -33,4 +33,4 @@ Stagers are lightweight payloads designed to establish an initial foothold on a 
 
 - [Offensive VBA](https://github.com/S3cur3Th1sSh1t/OffensiveVBA)
 
-- [Empire](
+- [Empire]()
